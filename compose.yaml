@@ -1,0 +1,13 @@
+services:
+  rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: math-handbook-rag:local
+    environment:
+      OLLAMA_URL: http://host.docker.internal:11434
+    volumes:
+      - ./major_handbook_pdfs:/app/major_handbook_pdfs:ro
+      - ./vector_store_math:/app/vector_store_math
+    extra_hosts:
+      - "host.docker.internal:host-gateway"

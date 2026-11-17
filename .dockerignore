@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+*.pyc
+vector_store_math
+vector_store_math_backup
+major_handbook_pdfs
+evaluation_results
+*.csv
+*.pdf
+*.zip
+*.mp4

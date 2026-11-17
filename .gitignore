@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Generated vector stores
+vector_store*/
+chroma_db/
+chroma*/
+*.sqlite3
+
+# Local caches
+.cache/
+.ipynb_checkpoints/
+
+# Videos (submitted separately)
+*.mp4
+
+# System files
+.DS_Store
+Thumbs.db

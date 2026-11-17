@@ -1,0 +1,13 @@
+﻿question_id,category,model,top_k,question,expected_answer,actual_answer,source_pages,response_time_seconds,manual_score,notes
+Q04,Capstone,qwen2.5:1.5b,10,"If an Applied Mathematics student does not take Capstone I and II, what must they complete instead?",2 advanced courses at the 300-level,"If an Applied Mathematics student does not take Capstone I and II, they must complete 2 advanced courses at the 300-level instead.","10, 13, 15, 17, 18, 9",18.71,,
+Q04,Capstone,qwen2.5:0.5b,5,"If an Applied Mathematics student does not take Capstone I and II, what must they complete instead?",2 advanced courses at the 300-level,"If an Applied Mathematics student does not take Capstone I and II, they must complete the following:
+
+1. Capstone I
+2. Capstone II
+
+These two courses are mandatory for the Applied Mathematics major.","10, 13, 15, 18",10.0,,
+Q01,Major Requirements,qwen2.5:1.5b,10,How many credits are required for the Applied Mathematics major?,56 credits,The Applied Mathematics major requires a total of 128 credits.,"10, 12, 13, 15, 18, 5, 7, 9",2.83,,
+Q02,Graduation,qwen2.5:1.5b,10,What is the minimum total number of credits required for graduation?,At least 128 credits,The minimum total number of credits required for graduation is 128 credits.,"10, 12, 15, 19, 2, 21, 8, 9",2.83,,
+Q03,Major Declaration,qwen2.5:1.5b,10,How many MATH courses must students complete before declaring the major?,At least 2 MATH courses,Students must complete at least 2 MATH courses before declaring the Applied Mathematics Major.,"10, 12, 13, 15, 16, 21, 29, 9",2.88,,
+Q01,Major Requirements,qwen2.5:1.5b,3,How many credits are required for the Applied Mathematics major?,56 credits,The Applied Mathematics major requires a total of 128 credits.,"10, 18",1.1,,
+Q01,Major Requirements,qwen2.5:1.5b,5,How many credits are required for the Applied Mathematics major?,56 credits,The Applied Mathematics major requires a total of 128 credits.,"10, 12, 18, 7",1.01,,
